@@ -8,6 +8,8 @@ public class GameApplication {
 		ryu.setLife(100);
 		
 		System.out.println("Slash:" + ryu.slash());
+		
+		Ninja fodder = new Ninja();
 
 	}
 
