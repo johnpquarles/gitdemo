@@ -28,5 +28,6 @@ public class Ninja {
 	
 	public void hit(int attack){
 		life-=attack;
+		System.out.println("OUCH! Life= "+life);
 	}
 }
