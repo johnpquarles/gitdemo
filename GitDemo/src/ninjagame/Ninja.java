@@ -13,6 +13,7 @@ public class Ninja {
 	 * @return the amount of damage
 	 */
 	public int slash(){
+		System.out.println("SLASH");
 		return (int) (katanaSkill*.5);
 	}
 	public int getLife() {
