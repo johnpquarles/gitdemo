@@ -25,4 +25,8 @@ public class Ninja {
 	public void setKatanaSkill(int skill){
 		katanaSkill = skill;
 	}
+	
+	public void hit(int attack){
+		life-=attack;
+	}
 }
