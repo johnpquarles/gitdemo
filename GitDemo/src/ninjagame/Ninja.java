@@ -1,9 +1,13 @@
 package ninjagame;
-
+/**
+ * Represents a ninja
+ * @author John
+ *
+ */
 public class Ninja {
 
-	private int life;
-	private int katanaSkill;
+	private int life =100;
+	private int katanaSkill =10;
 	/**
 	 * The ninja slashes with a katana.
 	 * @return the amount of damage
