@@ -10,6 +10,7 @@ public class GameApplication {
 		System.out.println("Slash:" + ryu.slash());
 		
 		Ninja fodder = new Ninja();
+		Ninja fodder2 = new Ninja();
 
 	}
 
